@@ -1,0 +1,9 @@
+# Site settings
+title: Aviation - Rafael Ferreira da Silva
+subtitle: "Ground Instructor"
+
+exclude:
+  - .jekyll-cache
+  - .idea
+  - README.md
+  - LICENSE
