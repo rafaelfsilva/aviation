@@ -1,13 +1,11 @@
 <section id="footer">
     <p class="copyright">
-        <a href="http://isi.edu" target="_blank" style="border: 0">
-            <img src="/assets/images/rafaelsilva-aviation-logo-gray.png" style="width: 4em"/>
-        </a>
-    <br/>
-    Rafael Ferreira da Silva<br/>
-    <i class="fas fa-envelope"></i> <span style="text-transform: lowercase">aviation@rafaelsilva.com</span><br/>
-    <br/><br/><br/>
-    &copy;{{ site.time | date: '%Y' }} Rafael Ferreira da Silva<br/>Ground Instructor.
+        <img src="{{ site.baseurl }}/assets/images/rafaelsilva-aviation-logo-gray.png" style="width: 4em"/>
+        <br/>
+        Rafael Ferreira da Silva<br/>
+        <i class="fas fa-envelope"></i> <span style="text-transform: lowercase">aviation@rafaelsilva.com</span><br/>
+        <br/><br/><br/>
+        &copy;{{ site.time | date: '%Y' }} Rafael Ferreira da Silva<br/>Ground Instructor.
     </p>
 </section>
 
@@ -15,7 +13,11 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-4V8ETK6B3M"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
     gtag('js', new Date());
 
     gtag('config', 'G-4V8ETK6B3M');
